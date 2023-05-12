@@ -10,6 +10,7 @@ public class Main {
         String result = null;
         String op = null;
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите выражение (без пробелов!)");
         String input = scanner.next();
         String[] parts = input.split("[+\\-*/]");
         if (parts.length != 2) {

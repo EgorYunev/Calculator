@@ -48,8 +48,6 @@ public class Main {
                     } else if (value1.equals(arab[k]) && value2.equals(arab[l])) {
                         valueInt1 = Integer.parseInt(value1);
                         valueInt2 = Integer.parseInt(value2);
-                    } else {
-                        throw new IllegalArgumentException("Error");
                     }
                 }
             }
